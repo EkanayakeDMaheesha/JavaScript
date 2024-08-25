@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Event handling</title>
+    <h1>JS Events</h1>
+</head>
+<body>
+    <script language="JavaScript" type="text/JavaScript">
+        function clickevent(){
+            document.write("Hello");
+        }
+        function abc(){
+            document.write("Hello all");
+        }
+        function xyz(){
+            document.write("Hello all ");
+        }
+        function clickevent2(){
+            document.write("Hello ");
+        }
+    </script>
+    <form>
+        <input type="button" onclick="clickevent()" value="click this button"/>
+
+        <input type="button" onclick="abc()" value="click on"/>
+
+        <input type="button" onmouseover="xyz()" value="click on"/>
+
+    
+    </form>
+    <p onmouseover="clickevent2()">
+        see how work onmouseover
+
+    </p>
+    <input type="text" id="input" onkeydown="clickevent()"/>
+
+
+</body>
+</html>
